@@ -1,3 +1,5 @@
+npm install
+npm run build
 
   # Personal CV Portfolio Layout
 
