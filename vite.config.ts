@@ -17,8 +17,8 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  base: '/Personalcvportfoliolayout.github.io/',
   plugins: [
-    base: '/Personalcvportfoliolayout.github.io/',
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
     // Tailwind is not being actively used – do not remove them
