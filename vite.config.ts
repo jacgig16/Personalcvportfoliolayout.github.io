@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: '/Personalcvportfoliolayout.github.io/',  // Add this line
+  base: '/Personalcvportfoliolayout.github.io/',
   plugins: [
     figmaAssetResolver(),
     react(),
@@ -30,5 +30,5 @@ export default defineConfig({
   },
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
-  assetsInclude: ['**/*.svg', '**/*.csv'],
+  assetsInclude: ['**/*.svg', '**/*.csv', '**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif', '**/*.webp'],
 })
