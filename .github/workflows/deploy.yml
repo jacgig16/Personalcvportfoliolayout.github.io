@@ -1,3 +1,5 @@
+yaml
+
 - name: Install dependencies
   run: npm install  # or pnpm install
 
